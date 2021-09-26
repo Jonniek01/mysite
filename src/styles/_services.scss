@@ -21,7 +21,7 @@
         border-left: 1px solid #2e344e;
         border-right: 1px solid #2e344e;
         transition: all .4s ease-in-out;
-        height: 50vh;
+        height: 60vh;
         &:hover{
             border-top: 8px solid #290974;
 
@@ -62,4 +62,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
+}
+
+#servimg{
+    height: 3rem;
 }

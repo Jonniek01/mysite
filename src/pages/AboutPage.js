@@ -3,7 +3,10 @@ import Title from '../components/title'
 import ImageSection from '../components/ImageSection.js'
 import SkillsSection from '../components/skillsSection'
 import ServicesSection from '../components/servicesSection'
-import design from '../img/s1.png'
+import web from '../img/web.png'
+import ai from '../img/chip.png'
+import ml from '../img/ml.png'
+
 
 
 
@@ -31,10 +34,10 @@ function AboutPage() {
             <Title title={'Services'} span={'Services'}/>
 
             <div className="services-container">
-                <ServicesSection image={design} title="Web Development" servicetext="  We create user friendly,responsive, cross-platform and scalable modern websites which leave your bussiness outstanding and most competitive" />
+                <ServicesSection image={web} title="Web Development" servicetext="  We create user friendly,responsive, cross-platform and scalable modern websites which leave your bussiness outstanding and most competitive" />
 
-<ServicesSection image={design} title="Machine Learning" servicetext=" We use machine learning algorithms to understand customers behaviour, deliver personalized content and information and also speed up discovery." />
-                <ServicesSection image={design} title="Artificial Intelligence" servicetext=" We transform your website by incorporating AI.We are able to automate tasks and improve user experience with chatbots, web design, marketing strategy etc." />
+<ServicesSection image={ml} title="Machine Learning" servicetext=" We use machine learning algorithms to understand customers behaviour, deliver personalized content and information and also speed up discovery." />
+                <ServicesSection image={ai} title="Artificial Intelligence" servicetext=" We transform your website by incorporating AI.We are able to automate tasks and improve user experience with chatbots, web design, marketing strategy etc." />
 
                 
 
