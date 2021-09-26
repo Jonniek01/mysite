@@ -1,0 +1,65 @@
+.ServicesSection{
+
+        @media screen and (max-width:1000px){
+            &:not(:last-child){
+                margin-bottom:2rem;
+            }
+        }
+    .service{
+
+                @media screen and (max-width:600px){
+                    height:30vh;
+
+                }
+
+        
+        width: 95%;
+        background-color: #17141B;
+        text-align: center;
+        border-top: 8px solid #2e344e;
+        border-bottom: 1px solid #2e344e;
+        border-left: 1px solid #2e344e;
+        border-right: 1px solid #2e344e;
+        transition: all .4s ease-in-out;
+        height: 50vh;
+        &:hover{
+            border-top: 8px solid #290974;
+
+            
+
+        }
+        .service-content{
+            padding: .5rem;
+
+
+        img{
+
+        }
+        .s-title{
+            font-size: 1.2rem;
+            font-weight: 500;
+            position: relative;
+            padding-bottom: 1rem;
+            margin: 1rem 0;
+            &::after{
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                background-color:#2e344e;
+                width: 30%;
+                height: 1px;
+            }
+
+        }
+        .service-text{
+            
+        }
+    }
+    }
+}
+.services-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}

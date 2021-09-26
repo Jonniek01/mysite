@@ -1,0 +1,125 @@
+.App{
+.sidebar{
+    width: 16%;
+    height: 100vh;
+    background-color: #17141B;
+    position: fixed;
+    border-right:1px solid #1D1922;
+    transform-origin: left;
+    @media screen and (max-width:1000px){
+        transition: all .4s ease-in-out;
+
+        transform: translateX(0);
+
+    }
+    @media screen and (max-device-width: 1024px){  
+        width: 30%;
+
+
+    }
+    @media screen and (max-width:500px){
+        transition: all .4s ease-in-out;
+
+        transform: translateX(0);
+        width: 50%;
+
+
+    }
+
+
+
+}
+.nav-toggle{
+    position: fixed;
+    z-index: 11;
+
+    @media screen and (max-width:1000px){
+        transform: translateX(+100%);
+        width: 20%;
+        left: -20%;
+    
+
+    }
+    @media screen and (max-width:500px){
+        width: 50%;
+        left: -50%;
+    
+
+    }
+
+
+    
+}
+.main-content{
+    margin-right: 0;
+    width: 84%;
+    margin-left: 16%;
+    background-color: #1D1922;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    position: relative;
+        @media screen and (max-width:500px){
+        width: 100vw;
+        margin:0;
+    }
+    @media screen and (max-device-width: 1024px){  
+        margin:0;
+        width: 100%;
+
+ 
+    }
+
+    .content{
+        margin: 5rem 15rem;
+    }
+    @media screen and (max-width:1000px){
+        width: 100%;
+        margin:0;
+    }
+
+}
+}
+
+.nav-btn{
+    position: fixed;
+    z-index: 10;
+    right: 10%;
+    top: 10%;
+    width: 3rem;
+    height: 3rem;
+    display: none;
+    cursor: pointer;
+
+    .line-1, .line-2, .line-3{
+        height: .3rem;
+        width: 100%;
+        background-color:silver;
+        pointer-events: none;
+        border-radius: 10%;
+        &:not(:last-child){
+            margin-bottom: .5rem;
+        }
+
+    } 
+    @media screen and (max-device-width: 1024px){  
+        display: grid;
+
+         
+    }
+
+
+
+    @media screen and (max-width:1000px){
+        display: grid;
+    }
+    @media screen and (max-width:500px){
+        display: grid;
+        width: 2.5rem;
+        height: 2.5rem;
+    
+    }
+
+
+}

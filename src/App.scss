@@ -1,0 +1,57 @@
+@import'./styles/layout';
+@import'./styles/navbar';
+@import'./styles/typography';
+@import'./styles/title';
+@import'./styles/about';
+@import'./styles/skill';
+@import'./styles/services';
+@import'./styles/blogs';
+@import'./styles/contact';
+@import'./styles/projects';
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100vw !important;
+        background-color: #1D1922
+
+}
+body::-webkit-scrollbar{
+    width: 18px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color:#290974 ;
+    border-radius: 50px;
+}
+body::-webkit-scrollbar-track{
+    background-color: #a4acc4;
+}
+body{
+    color: #a4acc4;
+   font-family: 'M PLUS Rounded 1c', sans-serif;
+   font-size: 1.2rem;
+}
+span{
+    color: #037fff;
+}
+
+@media screen and (max-width:500px){
+    html,body{
+        font-size: 80%;
+        width: 100%;
+    }
+}
